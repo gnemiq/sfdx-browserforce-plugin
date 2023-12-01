@@ -15,6 +15,8 @@ import { ReportsAndDashboards as reportsAndDashboards } from './reports-and-dash
 import { SalesforceToSalesforce as salesforceToSalesforce } from './salesforce-to-salesforce';
 import { Security as security } from './security';
 import { CompanyInformation as companyInformation } from './company-information';
+import { CpqConfiguration as cpqConfiguration } from './cpq-configuration';
+
 
 export {
   activitySettings,
@@ -33,5 +35,6 @@ export {
   reportsAndDashboards,
   salesforceToSalesforce,
   security,
-  companyInformation
+  companyInformation,
+  cpqConfiguration
 };
